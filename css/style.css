@@ -17,3 +17,50 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+.header {
+    color:#fff8e7;
+    font-size:50px;
+    background-color:#495a66;
+    display: flex;
+    justify-content:center;
+    font-family: 'Fjalla One', sans-serif;
+    padding:10px;
+}
+
+.navbar {
+    
+    background-color:#809eb2;
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+}
+
+.main {
+    background-color:#bfced8;
+}
+
+.aboutMain {
+    background-color:#b3a0c9;
+    margin:0;
+    padding:5px;
+    color:#595065;
+}
+
+.footer {
+    background-color:#5d807f
+}
+
+.navbar a {
+    color:#ffd5b8;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+}
+
+.header a{
+    color:#fff8e7;
+}
+
+.header a:hover {
+    color:#7FCDCD;
+}

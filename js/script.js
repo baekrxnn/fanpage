@@ -5,3 +5,6 @@ $('body').click(function(){
     
 });
 
+$("#about").click(function() {
+    
+})
