@@ -44,7 +44,11 @@ a {
     background-color:#b3a0c9;
     margin:0;
     padding:5px;
+}
+
+.leftPane {
     color:#595065;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .footer {
@@ -63,4 +67,8 @@ a {
 
 .header a:hover {
     color:#7FCDCD;
+}
+
+.gallery {
+    background-color:#8ba691;
 }
