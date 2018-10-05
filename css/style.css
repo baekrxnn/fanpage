@@ -23,7 +23,7 @@ a {
     font-size:50px;
     background-color:#495a66;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     font-family: 'Fjalla One', sans-serif;
     padding:10px;
 }
@@ -49,11 +49,22 @@ a {
 .leftPane {
     color:#595065;
     font-family: 'Catamaran', sans-serif;
+    width: 60%;
 }
 
+.rightPane {
+    width: 40%;
+}
+
+
+
 .footer {
+    display: flex;
+    justify-content: space-around;
     background-color:#5d807f
 }
+
+
 
 .navbar a {
     color:#ffd5b8;
