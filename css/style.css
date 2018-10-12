@@ -41,6 +41,7 @@ a {
 }
 
 .aboutMain {
+    display: flex;
     background-color:#b3a0c9;
     margin:0;
     padding:5px;
@@ -56,7 +57,13 @@ a {
     width: 40%;
 }
 
+#rdium {
+    height: 300px;
+}
 
+#group {
+    height: 325px;
+}
 
 .footer {
     display: flex;
@@ -82,4 +89,14 @@ a {
 
 .gallery {
     background-color:#8ba691;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content:center;
+}
+
+.thumbnail-image {
+    display: flex;
+    justify-content:center;
 }
