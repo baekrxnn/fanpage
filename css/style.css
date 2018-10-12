@@ -11,8 +11,24 @@ a {
 }
 
 .main {
-    height: 100%;
+    height:100%;
+    display: flex;
+    background-color:#bfced8;
+    flex-direction:column;
 }
+
+#music{
+    justify-content:center;
+    width: 70%;
+    height: 90%;
+}
+
+button{
+    justify-content:center;
+    width: 100px;
+    height: 30px;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
@@ -36,8 +52,16 @@ a {
     padding:10px;
 }
 
-.main {
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.content {
     background-color:#bfced8;
+    display: flex;
+    justify-content:center;
 }
 
 .aboutMain {
