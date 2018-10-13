@@ -13,13 +13,13 @@ var songlist= [
     "https://www.youtube.com/embed/I3dezFzsNss",
     "https://www.youtube.com/embed/bsY-uOfvMDI",
     
-    ]
+    ];
 
 console.log(songlist.length);
 
 function play() {
     for(var i=0; i<songlist.length; i++){
-        $("iframe").attr("src",songlist[0])
+        $("iframe").attr("src",songlist[0]);
     }
 }
     

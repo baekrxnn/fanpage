@@ -4,29 +4,35 @@ html {
 
 body {
     height: 100%;
-    
 }
+
 a {
     text-decoration: none;
 }
+
 
 .main {
     height:100%;
     display: flex;
     background-color:#bfced8;
     flex-direction:column;
+    justify-content:space-around;
 }
 
 #music{
-    justify-content:center;
+    /*justify-content:center;*/
     width: 70%;
     height: 90%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 button{
-    justify-content:center;
-    width: 100px;
+    /*justify-content:center;*/
+    width: 10%;
     height: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .social-image{
